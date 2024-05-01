@@ -2,6 +2,11 @@
 
 Deploy the OPNsense VM.
 
+## Setup
+
+In my repositroy hosted on my personal git server i use a git subvolume of my OPNsense backup config for the path `/terraform/config`. In addition i store the `password` in `secrets.sops.yaml` in this repository.
+
+
 ## Usage
 
 ### Cheat-Sheet
